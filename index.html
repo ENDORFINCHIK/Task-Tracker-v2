@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/light-theme-logo.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="nav-panel">
+        <div class="nav-logo">
+            <img src="Images/light-theme-logo.png" alt="logo">
+        </div>
+        <div class="nav-links">
+            <button class="add-task-btn">Add task</button>
+            <button class=""><></button>
+            <button class="add-column-btn">Add column</button>
+        </div>
+        <button class="themeBtn"><img id="theme-pic" src="Images/themeBtn.png" alt="Theme button"></button>
+    </div>
+    <div class="main-table">
+        <div class="bordered-table">
+            <table>
+                <tr class="table-header">
+                    <td>Name</td>
+                    <td>Date</td>
+                    <td>Status</td>
+                    
+                </tr>
+                <tr>
+                    <td>Якийсь текст</td>
+                    <td><input type="date" name="" class="date"></td>
+                    <td class="status-field">
+                        <label for="">In progress</label>
+                        <button class="select-btn"><img src="Images/status-select.png" alt=""></button>
+                    </td>
+                    <td class="del-btn-field"><button class="delete-btn">X</button></td>
+                </tr>
+                <tr>
+                    <td>Якийсь текст</td>
+                    <td><input type="date" name="" class="date"></td>
+                    <td class="status-field">
+                        <label for="">In progress</label>
+                        <button class="select-btn"><img src="Images/status-select.png" alt=""></button>
+                    </td>
+                    <td class="del-btn-field"><button class="delete-btn">X</button></td>
+                </tr>
+                <tr>
+                    <td>Якийсь текст</td>
+                    <td><input type="date" name="" class="date"></td>
+                    <td class="status-field">
+                        <label for="">In progress</label>
+                        <button class="select-btn"><img src="Images/status-select.png" alt=""></button>
+                    </td>
+                    <td class="del-btn-field"><button class="delete-btn">X</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="calendar">
+            <div class="calendar-header">
+                <button class="prev-month-btn"><img id="pic-arrow-left" src="Images/arrow-left.png" alt=""></button>
+                <h2 id="month-year">M</h2>
+                <button class="next-month-btn"><img id="pic-arrow-right" src="Images/arrow-right.png" alt=""></button>
+            </div>
+            <div class="calendar-body">
+                <div class="day-names">
+                    <div class="day-name">Mon</div>
+                    <div class="day-name">Tue</div>
+                    <div class="day-name">Wed</div>
+                    <div class="day-name">Thu</div>
+                    <div class="day-name">Fri</div>
+                    <div class="day-name">Sat</div>
+                    <div class="day-name">Sun</div>
+                </div>
+                <div class="dates">
+                    <!-- Dates will be dynamically generated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

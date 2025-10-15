@@ -1,0 +1,163 @@
+body{
+    background-color: whitesmoke;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+body button{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.nav-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 35%;
+    height: 50px;
+}
+.nav-links button{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+}
+#theme-pic{
+    width: 40px;
+    height: 40px;
+}
+.themeBtn{
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+/* Table styles*/
+.main-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-table table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    
+}
+.main-table th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 200px;
+}
+.table-header{
+    background-color: rgba(160, 160, 160, 0.198);
+    font-size: 20px;
+    text-align: center;
+}
+.bordered-table{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+}
+.del-btn-field{
+    width: 30px;
+}
+.delete-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.status-task{
+    width: 170px;
+}
+.select-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.select-btn img{
+    width: 40px;
+    height: 40px;
+}
+.status-field{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+}
+.date{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    
+    padding: 10px;
+    background-color: white;
+}
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+#pic-arrow-left, #pic-arrow-right{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.prev-month-btn, .next-month-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.day-names{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    margin-top: 10px;
+    gap: 5px;
+}
